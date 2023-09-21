@@ -11,6 +11,9 @@
 # production
 /build
 
+.env
+ingredienthub\src\api.js
+
 # misc
 .DS_Store
 .env.local

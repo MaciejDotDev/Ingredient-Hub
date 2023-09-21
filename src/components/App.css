@@ -1,0 +1,204 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a background color and a pastel green color scheme */
+  body {
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #009688; /* Pastel green for headings */
+    margin-bottom: 20px;
+  }
+  
+  /* Style the search bar */
+  .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px; /* Increased padding for buttons */
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the RecipeForm */
+  .recipe-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .recipe-form h2 {
+    font-size: 24px;
+    color: #009688;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+ /* Style the MyIngredients component */
+.my-ingredients {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .my-ingredients h2 {
+    font-size: 24px;
+    color: #009688;
+    margin-bottom: 10px;
+  }
+  
+  .my-ingredients ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .my-ingredients li {
+    margin-bottom: 10px;
+  }
+  
+  .my-ingredients label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .my-ingredients input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style the "Find Matching Recipes" button */
+  .my-ingredients button.find-matching-recipes {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the RecipeList component */
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .recipe-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex: 1;
+  }
+  
+  .recipe-card h3 {
+    font-size: 20px;
+    color: #009688;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Style the FoodItem component */
+  .food-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .food-item h3 {
+    font-size: 20px;
+    color: #009688;
+    margin-bottom: 10px;
+  }
+  
+  .food-item p {
+    color: #666;
+  }
+  
+  .food-item select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .food-item input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .food-item button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .app {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    .recipe-form,
+    .my-ingredients,
+    .food-item {
+      padding: 10px;
+    }
+  }
+  
