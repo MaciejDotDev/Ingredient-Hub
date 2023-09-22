@@ -33,42 +33,53 @@ Ingredient Hub is a web application that allows you to search for food items, cr
 
    ```bash
    git clone https://github.com/yourusername/ingredient-hub.git
-Navigate to the project directory:
+   ```
+1. Navigate to the project directory:
 
-bash
-Copy code
-cd ingredient-hub
-Install the required dependencies:
+   ```bash
+   cd ingredient-hub
+   ```
+   
+1. Install the required dependencies:
 
-bash
-Copy code
-npm install
-Usage
-Start the development server:
+   ```bash
+   npm install
+   ```
 
-bash
-Copy code
-npm start
-Open your web browser and visit http://localhost:3000 to access the Ingredient Hub application.
+## Usage
 
-Use the app to search for food items, create recipes, manage ingredients, and find matching recipes.
+1. Start the development server:
 
-Contributing
+   ```bash
+   npm start
+   ```
+   
+2. Open application:
+
+   Open any web browser and visit http://localhost:3000 to access the Ingredient Hub application.
+
+3. Use the app to search for food items, create recipes, manage ingredients, and find matching recipes.
+
+## Contributing
 Contributions are welcome! If you'd like to contribute to Ingredient Hub, please follow these steps:
 
-Fork the repository on GitHub.
+1. Fork the repository on GitHub.
 
-Clone your forked repository to your local machine.
+1. Clone your forked repository to your local machine.
 
-Create a new branch for your feature or bug fix.
+1. Create a new branch for your feature or bug fix.
 
-Make your changes and commit them with descriptive commit messages.
+1. Make your changes and commit them with descriptive commit messages.
 
-Push your changes to your forked repository on GitHub.
+1. Push your changes to your forked repository on GitHub.
 
-Submit a pull request to the original repository.
+1. Submit a pull request to the original repository.
 
-Please follow the code of conduct and respect the project's license.
+1. Please follow the code of conduct and respect the project's license.
 
-License
-This project is licensed under the  GNU License - see the LICENSE file for details.s
+## Credits
+
+MaciejDotDev - Main developer
+
+## License
+This project is licensed under the  GNU License - see the LICENSE file for details.
